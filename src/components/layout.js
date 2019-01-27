@@ -27,8 +27,8 @@ const MyGlobalStyle = createGlobalStyle `
 
 body {
 	font - family: 'Open Sans', sans-serif;
-	color: white;
-	background: green;
+	color: black;
+	background: white;
 }
 `
 

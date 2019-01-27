@@ -11,7 +11,7 @@ export default class navbar extends Component {
 	}
 	//method to handle navbar action
 	handleNavbar = () => {
-		this.state( () => {
+		this.setState( () => {
 			return {navbarOpen: !this.state.navbarOpen} 
 		})
 	}

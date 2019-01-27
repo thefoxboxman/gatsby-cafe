@@ -4,6 +4,9 @@ import {Link} from 'gatsby'
 import logo from '../../../images/logo.svg'
 import {FaAlignRight} from 'react-icons/fa'
 import styled from 'styled-components'
+import { styles } from '../../../utils'
+
+
 export default class NavbarHeader extends Component {
 	render() {
 		const {handleNavbar} = this.props
@@ -25,7 +28,7 @@ align-items: center;
 justify-content: space-between;
 .toggle-icon{
 	font-size: 1.75rem;
-	color: yellow;
+	color: ${styles.colors.mainYellow};
 	cursor: pointer;
 }
 @media (min-width: 768px){
