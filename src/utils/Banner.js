@@ -17,7 +17,7 @@ const BannerWrapper = styled.div`
     color: ${styles.colors.mainWhite};
     font-size: 3rem;
     text-transform: uppercase;
-    letter-spacing: 0.75rem;
+    letter-spacing: 0.45rem;
   }
   .subtitle {
     color: ${styles.colors.mainWhite};
