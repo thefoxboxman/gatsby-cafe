@@ -18,7 +18,7 @@ const Layout = ({
 	)
 }
 
-const MyGlobalStyle = createGlobalStyle `
+const MyGlobalStyle = createGlobalStyle`
 *{
 	margin: 0;
 	padding: 0;
@@ -26,7 +26,7 @@ const MyGlobalStyle = createGlobalStyle `
 }
 
 body {
-	font - family: 'Open Sans', sans-serif;
+	font-family: 'Caveat', cursive;
 	color: black;
 	background: white;
 }

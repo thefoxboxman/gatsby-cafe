@@ -38,7 +38,7 @@ const IconWrapper = styled.div`
   .icon {
     font-size: 1.3rem;
     cursor: pointer;
-    ${styles.transObject({ time: '2s' })};
+    ${styles.transObject({ time: '1s' })};
   }
 
   .icon:hover {
