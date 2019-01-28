@@ -26,7 +26,7 @@ const MyGlobalStyle = createGlobalStyle`
 }
 
 body {
-	font-family: 'Caveat', cursive;
+	font-family: Georgia, 'Times New Roman', Times, serif ;
 	color: black;
 	background: white;
 }
