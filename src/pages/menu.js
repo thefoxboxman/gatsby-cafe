@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import { PageHeader } from '../utils/'
+import { PageHeader, Banner } from '../utils/'
 import menuImg from '../images/bcg/menuBcg.jpeg'
 
 
@@ -12,7 +12,7 @@ const MenuPage = () => (
 	<Layout>
 		<SEO title="Menu" keywords={[`gatsby`, `application`, `react`]} />
 		<PageHeader img={menuImg}>
-			<h3>Menu page content</h3>
+			<Banner title="menu" subtitle="dig in" />
 		</PageHeader>
 	</Layout>
 )
