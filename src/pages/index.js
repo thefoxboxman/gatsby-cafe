@@ -8,15 +8,17 @@ import QuickInfo from '../components/HomePageComponents/QuickInfo'
 import Layout from '../components/layout'
 import SEO from '../components/seo'
 
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <HomeHeader img={img}>
-      <Banner title="gatsby eatery" subtitle="555 main street, Surfers Paradise. Qld." >
+      <Banner title="gatsby cafe" subtitle="55 pacific avenue, Byron Bay, Australia." >
 			<BannerButton style={{margin: `2rem auto`}}>menu</BannerButton>
 			</Banner>
     </HomeHeader>
 		<QuickInfo />
+		
   </Layout>
 )
 
