@@ -3,7 +3,7 @@ import styled from 'styled-components'
 import {HomeHeader, Banner, BannerButton} from '../utils'
 import img from '../images/bcg/homeBcg.jpeg'
 import QuickInfo from '../components/HomePageComponents/QuickInfo'
-import Gallery from '../components/HomePageComponents/Gallery'
+import Gallery from '../components/HomePageComponents/Gallery1'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'

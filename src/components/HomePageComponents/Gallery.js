@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import {StaticQuery, Graphql, graphql} from 'gatsby'
+import {StaticQuery, graphql} from 'gatsby'
 import Img from 'gatsby-image'
 
 import {styles, Section} from '../../utils'
