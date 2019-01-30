@@ -4,6 +4,7 @@ import {HomeHeader, Banner, BannerButton} from '../utils'
 import img from '../images/bcg/homeBcg.jpeg'
 import QuickInfo from '../components/HomePageComponents/QuickInfo'
 import Gallery from '../components/HomePageComponents/Gallery1'
+import Menu from '../components/HomePageComponents/Menu'
 
 import Layout from '../components/layout'
 import SEO from '../components/seo'
@@ -19,6 +20,7 @@ const IndexPage = () => (
     </HomeHeader>
 		<QuickInfo />
 		<Gallery />
+		<Menu />
 		
   </Layout>
 )
