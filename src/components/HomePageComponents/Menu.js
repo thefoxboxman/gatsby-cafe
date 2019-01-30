@@ -10,7 +10,7 @@ const PRODUCTS = graphql`{
   items:allContentfulProduct{
     edges{
       node{
-        product
+        name
         price
         info
         id
