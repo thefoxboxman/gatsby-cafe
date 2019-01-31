@@ -2,7 +2,8 @@ import React, { Component } from 'react'
 import styled from 'styled-components'
 import {FaInstagram, FaTwitter, FaFacebook} from 'react-icons/fa'
 
-import{styles} from '../../utils'
+import FooterLinks from './FooterLinks'
+import{styles} from '../../../utils'
 export default class Footer extends Component {
 	state={
 		icons:[
@@ -28,6 +29,9 @@ export default class Footer extends Component {
 		return (
 			<FooterWrapper>
 <div className='title'>Gatsby Cafe</div>
+<div className="footerLinks">
+<FooterLinks />
+</div>
 <div className="icons">
 					{this.state.icons.map(item => (<a href={item.path} key={item.id} target="_blank" rel="noopener noreferrer">{item.icon} </a>))}
 </div>
@@ -61,13 +65,15 @@ const FooterWrapper = styled.footer`
   }
 
   .title {
-		width: 10rem;
+    width: 10rem;
     color: ${styles.colors.mainYellow};
     text-transform: uppercase;
     text-align: center;
-		padding: 0.3rem 1rem;
-		margin: 0 auto 2rem auto;
-		font-size:1.5rem;
-		${styles.border({color: `${styles.colors.mainYellow}`})};
+    padding: 0.3rem 1rem;
+    margin: 0 auto 1rem auto;
+    font-size: 1.5rem;
+    ${styles.border({ color: `${styles.colors.mainYellow}` })};
   }
+  
+  
 `

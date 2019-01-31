@@ -5,7 +5,7 @@ import {
 } from 'styled-components'
 
 import Navbar from './globals/navbar/Navbar'
-import Footer from '../components/globals/Footer'
+import Footer from './globals/footer/Footer'
 
 const Layout = ({
 	children
