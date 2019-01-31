@@ -5,8 +5,8 @@ import Img from 'gatsby-image'
 import {styles } from '../../utils'
 
 export default function Product({product}) {
-	const {name, price, info} = product;
-	const {fixed} = product.image;
+	const {name, price, ingredients} = product;
+	const {fixed} = product.foodPhoto;
 
 	return (
 	<ProductWrapper>
@@ -14,11 +14,11 @@ export default function Product({product}) {
 <div className="product-content">
 	<Img fixed={fixed} className="image" />
 	<div>
-	<h3 className="name">{name}This the name</h3>
+	<h3 className="name">{name}</h3>
 	<h3 className="price" >${price}</h3>
 	</div>
 </div>
-<p className="info" >{info}</p>
+<p className="info" > *{ingredients}</p>
 </div>
 
 
@@ -45,15 +45,16 @@ const ProductWrapper = styled.div`
   .name {
     color: ${styles.colors.mainYellow};
     margin-top: 0.5rem;
-    
+    padding-left: 1rem;
   }
   .price {
     color: ${styles.colors.mainYellow};
     margin-top: 0.5rem;
+    padding-left: 1rem;
   }
-	.info{
-		margin-top: 0.5rem;
-		word-spacing: 0.2rem;
-		text-transform: lowercase;
-	}
+  .info {
+    margin-top: 0.5rem;
+    word-spacing: 0.2rem;
+    text-transform: lowercase;
+  }
 `
