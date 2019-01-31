@@ -1,5 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
+
+import AboutText from '../components/AboutPageComponents/AboutText'
 import {PageHeader, Banner} from '../utils/'
 import aboutImg from '../images/bcg/aboutBcg.jpeg'
 
@@ -12,6 +14,7 @@ const AboutPage = () => (
     <PageHeader img={aboutImg}>
       <Banner title='about us' subtitle='the inside story' />
     </PageHeader>
+		<AboutText />
   </Layout>
 )
 
