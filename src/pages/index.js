@@ -1,5 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
+import { Link } from 'gatsby'
+
 import {HomeHeader, Banner, BannerButton} from '../utils'
 import img from '../images/bcg/homeBcg.jpeg'
 import QuickInfo from '../components/HomePageComponents/QuickInfo'
@@ -15,7 +17,9 @@ const IndexPage = () => (
     <SEO title="Home" keywords={[`gatsby`, `application`, `react`]} />
     <HomeHeader img={img}>
       <Banner title="gatsby cafe" subtitle="55 pacific avenue, Byron Bay, Australia." >
-			<BannerButton style={{margin: `2rem auto`}}>menu</BannerButton>
+				<Link to="/menu/" style={{ textDecoration: 'none' }}>
+					<BannerButton style={{ margin: '2rem auto' }}>menu</BannerButton>
+				</Link>
 			</Banner>
     </HomeHeader>
 		<QuickInfo />
