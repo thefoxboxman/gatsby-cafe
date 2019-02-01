@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from 'styled-components'
+
 
 import AboutText from '../components/AboutPageComponents/AboutText'
 import {PageHeader, Banner} from '../utils/'

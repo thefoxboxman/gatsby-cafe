@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import styled from 'styled-components'
 
-import { styles } from '../../utils'
+
 import MenuItem from '../MenuPageComponents/MenuItem'
 
 export default class StarterItemsList extends Component {

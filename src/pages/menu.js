@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from 'styled-components'
+
 
 import { PageHeader, Banner } from '../utils/'
 import menuImg from '../images/bcg/menuBcg.jpeg'
