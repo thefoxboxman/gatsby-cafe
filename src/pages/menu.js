@@ -1,12 +1,14 @@
 import React from 'react'
 import styled from 'styled-components'
+
 import { PageHeader, Banner } from '../utils/'
 import menuImg from '../images/bcg/menuBcg.jpeg'
-
-
-
 import Layout from '../components/layout'
 import SEO from '../components/seo'
+
+import CourseStarters from '../components/MenuPageComponents/CourseStarters'
+import CourseMains from '../components/MenuPageComponents/CourseMains'
+import CourseDesert from '../components/MenuPageComponents/CourseDeserts'
 
 const MenuPage = () => (
 	<Layout>
@@ -14,6 +16,14 @@ const MenuPage = () => (
 		<PageHeader img={menuImg}>
 			<Banner title="menu" subtitle="dig in" />
 		</PageHeader>
+		
+		<CourseStarters />
+		<CourseMains />
+		<CourseDesert />
+	
+			
+		
+		
 	</Layout>
 )
 
