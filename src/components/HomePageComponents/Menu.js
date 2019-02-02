@@ -1,9 +1,9 @@
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 import styled from 'styled-components'
-import { Link } from 'gatsby'
 
-import { Section, Title, SectionButton } from '../../utils'
+
+import { Section, Title } from '../../utils'
 
 import Product from './Product'
 const PRODUCTS = graphql`

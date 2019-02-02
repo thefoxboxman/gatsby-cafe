@@ -20,7 +20,7 @@ Title.defaultProps = {
 const TitleWrapper = styled.div`
   text-align: center;
   .message {
-    color: blueviolet;
+    
     ${styles.textSlanted};
     letter-spacing: 0.3rem;
     color: ${styles.colors.mainYellow};
