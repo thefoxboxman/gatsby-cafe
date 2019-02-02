@@ -3,40 +3,35 @@ import styled from 'styled-components'
 
 import { styles } from '../../utils'
 
-export default function MenuItem({ name, price, blurb}) {
-	
-	
-	return (
-	<MenuItemWrapper>
-		<div className="text">
-			<div className="item-content">
-				
-				
-					<h3 className="name">{name}</h3>
-					<h3 className="price" >${price}</h3>
-				
-			</div>
-			<p className="info" > *{blurb}</p>
-		</div>
+export default function MenuItem({ name, price, blurb }) {
+  return (
+    <MenuItemWrapper>
+      <div className="text">
+        <div className="item-content">
+          <h3 className="name">{name}</h3>
+          <h3 className="price">${price}</h3>
+        </div>
+        <div>
+          <p className="info"> *{blurb}</p>
+        </div>
+      </div>
     </MenuItemWrapper>
-	)
+  )
 }
 
 MenuItem.defaultProps = {
-	name: 'dish name',
-	price: '10',
-	blurb: 'the mouth watering description of the tasty dishjfaljlajlfajsjfdj akjalfjsjfldsf  aslkdjakldjflajslfkjasdklfjklas jkajflsjlfakjlfasf;d',
+  name: 'dish name',
+  price: '10',
+  blurb: 'the mouth watering description of the tasty ',
 }
 const MenuItemWrapper = styled.div`
-  @media (min-width: 576px) {
-    display: grid;
-    grid-template-columns: auto 1fr;
-    grid-column-gap: 1rem;
-  }
+ 
 
   .item-content {
     display: flex;
     justify-content: space-between;
+    align-content: space-between;
+    width: 100%;
     font-size: 1rem;
     text-transform: capitalize;
   }
@@ -51,6 +46,7 @@ const MenuItemWrapper = styled.div`
     padding-left: 1rem;
   }
   .info {
+    text-align: left;
     margin-top: 0.5rem;
     word-spacing: 0.2rem;
     padding-left: 1rem;

@@ -31,7 +31,7 @@ const PRODUCTS = graphql`
 export default function Menu() {
 	return (
 		<Section>
-			<Title title="featured items" message="little taste" />
+			<Title title="today's specials" message="little taste" />
 			<ProductList>
 				<StaticQuery query={PRODUCTS} render={data => {
 					const products = data.items.edges
