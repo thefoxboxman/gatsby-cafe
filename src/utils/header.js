@@ -26,7 +26,7 @@ const IndexHeader = styled.header`
 		justify-content: center;
 `
 const DefaultHeader = styled(IndexHeader)`
-min-height: 60vh;
+min-height: 50vh;
 `
 
 HomeHeader.defaultProps = {
