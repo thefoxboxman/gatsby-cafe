@@ -8,7 +8,7 @@ import SEO from '../components/seo'
 
 import CourseStarters from '../components/MenuPageComponents/CourseStarters'
 import CourseMains from '../components/MenuPageComponents/CourseMains'
-import CourseDesert from '../components/MenuPageComponents/CourseDeserts'
+import CourseDesserts from '../components/MenuPageComponents/CourseDesserts'
 
 const MenuPage = () => (
 	<Layout>
@@ -19,7 +19,7 @@ const MenuPage = () => (
 		
 		<CourseStarters />
 		<CourseMains />
-		<CourseDesert />
+		<CourseDesserts />
 	
 			
 		

@@ -2,14 +2,14 @@ import React from 'react'
 import styled from 'styled-components'
 
 import { styles } from '../../utils'
-import MenuItem from '../MenuPageComponents/MenuItem'
+import MainsItemsList from '../MenuPageComponents/MainsItemsList'
 
 export default function CourseMains({ title }) {
   return (
     <CourseWrapper>
       <h2 className="title">{title}</h2>
       <div className="underline" />
-      <MenuItem />
+      <MainsItemsList />
     </CourseWrapper>
   )
 }

@@ -2,20 +2,20 @@ import React from 'react'
 import styled from 'styled-components'
 
 import { styles } from '../../utils'
-import MenuItem from '../MenuPageComponents/MenuItem'
+import DessertsItemsList from '../MenuPageComponents/DessertsItemsList'
 
-export default function CourseDesert({ title }) {
+export default function CourseDesserts({ title }) {
   return (
     <CourseWrapper>
       <h2 className="title">{title}</h2>
       <div className="underline" />
-      <MenuItem />
+      <DessertsItemsList />
     </CourseWrapper>
   )
 }
 
-CourseDesert.defaultProps = {
-  title: 'Desert',
+CourseDesserts.defaultProps = {
+  title: 'Desserts',
 }
 const CourseWrapper = styled.div`
   text-align: center;

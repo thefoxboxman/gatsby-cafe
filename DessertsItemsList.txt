@@ -1,0 +1,26 @@
+{
+        id: 1,
+        name: 'Affogato, vanilla bean ice cream & espresso with Amaretto or Frangelico (gf)',
+        price: 15,
+        blurb:
+          ' ',
+      },
+      {
+        id: 2,
+        name: 'Selection of handmade Kakawa chocolates (gf)',
+        price: 18,
+        blurb:
+          '',
+      },
+      {
+        id: 3,
+        name: 'Selection of three cheeses, quince, sea salt bark',
+        price: 28,
+        blurb:
+          'Le Conquérant Camembert, France, pasteurised cow’s milk,  
+
+Pyengana clothbound Cheddar, Tasmania, pasteurised cow's milk,  
+
+Berrys Creek Bellingham Blue, Victoria, pasteurised Jersey cow’s milk',
+      },
+      
